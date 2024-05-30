@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         Button(
                             onClick = {
-                                downloader.downloadFile("https://kulturologia.ru/files/u20709/novosibirsk-999.jpg")
+                                downloader.downloadFile("https://www.kaggle.com/api/v1/models/google/landmarks/tfLite/classifier-europe-v1/1/download")
                             }) {
                             Text(
                                 text = "Download image"
